@@ -11,26 +11,48 @@
 
 <body>
 <main>
-    <!--ajout icon bootstrap-->
-    <div class="container text-center">
-        <h1 class="game-title">
-            <span><i class="bi bi-plus-square"></i></span>New Game
-        </h1>
+    <div class="wrapper">
+        <button id="reset">
+            <i class="bi bi-plus-square"></i>New Game
+        </button>
+    <div class="container">
+    <!--Player 1-->
+        <div class="players">
+            <h1>Player 1</h1>
+            <h1 class="player-score-P1">0</h1>
+    <!--current score-->
+        <div class="current-score">
+            <span>Current</span>
+            <h4 id="current-score-P1">0</h4>
+        </div>
     </div>
 
-    <!--Diviser en 2 parties -->
-    <div class='container text-center'>
-        <div class="row row-cols-2">
-            <div class="col-gauche">
-                <h1 class="P1">Player 1</h1>
-            </div>
-            <div class="col-droite">
-                <h1 class="P2">Player 2</h1>
-            </div>
+    <!--Player 2-->
+    <div class="players">
+        <h1>Player 2</h1>
+        <h1 class="player-score-P2">0</h1>
+    <!--current score-->
+        <div class="current-score">
+            <span>Current</span>
+            <h4 id="current-score-P2">0</h4>
+        </div>
+    </div>
+
+    <!--buttons-->
+        <div id="dice"><img src="" alt=""></div>
+        <button class="rollDice">
+            <i class="bi bi-repeat"></i>Roll Dice
+        </button>
+
+        <button class="Hold">
+            <i class="bi bi-save2"></i>Hold
+        </button>
         </div>
     </div>
 </main>
 
+
+    <script src="bootstrap.bundle.min.js"></script>
     <script src="jQuery.js"></script>
     <script src="script.js"></script>
     
