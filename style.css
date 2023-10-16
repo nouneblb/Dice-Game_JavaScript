@@ -1,12 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Work+Sans:wght@700&display=swap');
 
-/*réinitialiser les marges et rembourrages */
-* {
-    margin: 0;
-    padding: 0;
+body {
+    font-family: 'lato' sans-serif;
+    margin: 0 auto;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-.col-gauche {
-    background-color: grey;
+/*placer les containers */
+.wrapper {
+    position: relative;
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    margin: 5% auto;
+    background: white;
+    box-shadow: 0px 0px 90px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+/*placer les players */
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*style du current score */
+.current-score {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*placer mes boutons */
+#reset {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    margin-top: 20px;
+    left: 45%;
 }
 
