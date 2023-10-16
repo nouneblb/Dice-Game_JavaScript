@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/*réinitialiser les marges et rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-gauche {
+    background-color: grey;
+}
+
