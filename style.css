@@ -89,7 +89,17 @@ h1 {
     left: 50%;
 }
 
+/*colors et décalage icons */
 i {
     color: #eeaeca;
     margin-right: 10px;
+}
+
+/*background container player1 & dice*/
+.player1 {
+    background-color: #F1EFEF;
+}
+
+#dice {
+    background-color: #F1EFEF;
 }
